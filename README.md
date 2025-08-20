@@ -1,5 +1,5 @@
 # BodyReplacer
-A browser extension that checks the page's url web pages for certain keywords and replaces the whole <body> section with an image or custom text.
+A browser extension that checks the page's url web pages for certain keywords and replaces the whole &lt;body> section with an image or custom text.
 
 ## 📦 Installation (Dev Mode)
 1. Clone this repo
