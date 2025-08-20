@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Body Replacer",
+  "version": "1.0",
+  "description": "Replaces the entire <body> section with an image or custom text if the url contains the inserted keywords.",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content/content.js"]
+    }
+  ]
+}
